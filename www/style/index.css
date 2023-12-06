@@ -1,0 +1,50 @@
+:root {
+    --base-color: #fff;
+    --background-color: #577ab0;
+
+    --header-background-color:  #ffc7f2;
+    --header-background-image: url(//cdn.kelcuprum.ru/style/background.png);
+}
+
+body {
+    font-family: "Source Code Pro", monospace;
+    background-color: var(--background-color);
+    color: var(--base-color);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--base-color);  
+}
+
+li, ul, a, h4 {
+    font-size: 20pt;
+}
+
+#header {
+    background-image: var(--header-background-image);
+    /* background-position-y: top; */
+    /* background-position-y: -15pt; */
+    /* background-position-y: -160pt;
+    background-position-x: -230pt; */
+    /* background-color: linear-gradient(to right, #181818, #181818, #131a3d); */
+    background-color: var(--header-background-color);
+    height: 90pt;
+    max-height: 90pt;
+    background-repeat: no-repeat;
+    /* background-size: 500pt; */
+    background-size: 170pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+#content {
+    display: block;
+    padding-left: 20pt;
+    /* padding-right: 10px; */
+    padding-top: 90pt;
+    color: var(--base-color);
+}
